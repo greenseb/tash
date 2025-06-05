@@ -54,10 +54,11 @@ Error generating stack: `+a.message+`
   overflow-y: auto;
   scroll-behavior: smooth;
 `,jv=Ia.div`
-  width: 10%;
-  height: 8.5%;
+  width: 100%;
+  height: 15vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 `,Gv=Ia.div`
   display: flex;
   flex-direction: column;
