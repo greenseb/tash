@@ -55,6 +55,7 @@ Error generating stack: `+a.message+`
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 
   /* WebKit Browsers (Chrome, Safari including iOS) */
   &::-webkit-scrollbar {
