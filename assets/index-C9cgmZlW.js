@@ -54,24 +54,31 @@ Error generating stack: `+a.message+`
   overflow-y: auto;
   scroll-behavior: smooth;
 
-  /* Scrollbar Styling */
+  /* WebKit Browsers (Chrome, Safari including iOS) */
   &::-webkit-scrollbar {
     width: 12px;
   }
 
   &::-webkit-scrollbar-track {
-    background: white;
+    background: pink;
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: pink;
     border-radius: 6px;
-    border: 3px solid black; /* Optional: gives it padding */
+    border: 3px solid black;
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background-color: #aaa;
+    background-color: pink;
   }
+
+  /* Firefox support (for completeness) */
+  scrollbar-color: pink;
+  scrollbar-width: thin;
+
+  /* Force momentum scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
 `,jv=Ia.div`
   width: 100%;
   height: 15vh;
