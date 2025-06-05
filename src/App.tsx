@@ -92,6 +92,7 @@ function App() {
         <SmallHeading>- Drive to Dartmoor National Park🚙</SmallHeading>
         <SmallHeading>- Little hike or a nice walk with snacks🍿</SmallHeading>
         <SmallHeading>- Home🛌</SmallHeading>
+        <SmallHeading>- Test</SmallHeading>
       </TextWrapper>
     </AppWrapper>
   );
