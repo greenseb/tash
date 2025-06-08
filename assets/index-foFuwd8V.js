@@ -55,8 +55,9 @@ Error generating stack: `+a.message+`
     display: flex;
     flex-direction: column;
     padding: 25px;
+    box-shadow: 10px 10px 0px white;
   `),tr=({children:c})=>Tt.jsx(Gv,{children:c}),jv=Ra.div`
-  background: black;
+  background: lightblue;
   width: 100vw;
   height: auto;
   overflow-y: auto;
