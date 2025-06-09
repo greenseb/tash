@@ -1,0 +1,14 @@
+<!-- public/404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirect back to /tash and preserve the original path
+      const currentPath = location.pathname + location.search + location.hash;
+      const newUrl = "/tash" + currentPath;
+      location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
