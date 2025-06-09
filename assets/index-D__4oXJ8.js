@@ -72,11 +72,11 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   overflow: hidden;
   pointer-events: none;
 `,vp=He.img`
-  width: 20%;
-  // height: 20%;
+  width: 30%;
   position: absolute;
   pointer-events: auto;
   animation: ${um} 30s linear infinite;
+  margin: 20px;
 `;He.div`
   width: 100px;
   height: 100px;
