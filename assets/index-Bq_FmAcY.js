@@ -137,7 +137,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   width: 30%;
   position: absolute;
   pointer-events: auto;
-  animation: ${pp} 3s linear infinite;
+  animation: ${pp} 4s linear infinite;
   margin: 20px;
 `,Ep="/tash/assets/face-CX2Hexw4.png";function Ap({setClicked:u}){const c=()=>{u(!0)};return st.jsx(Sp,{children:st.jsx(bp,{src:Ep,alt:"Bouncing",onClick:c})})}const Tp=He.div`
   position: relative;
