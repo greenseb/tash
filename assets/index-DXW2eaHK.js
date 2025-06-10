@@ -145,7 +145,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   border-radius: 0.4em;
   box-shadow: 10px 10px 0px #00aabb;
   top: 300px;
-  width: 40%;
+  width: 45%;
   height: content;
   margin: 0 auto;
   padding: 20px;
