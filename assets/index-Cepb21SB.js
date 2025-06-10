@@ -132,6 +132,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   height: 100vh;
   overflow: hidden;
   pointer-events: none;
+  top: 50px;
 `,bp=He.img`
   width: 30%;
   position: absolute;
@@ -144,7 +145,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   color: white;
   border-radius: 0.4em;
   box-shadow: 10px 10px 0px #00aabb;
-  top: 300px;
+  top: 50vh;
   width: 45%;
   height: content;
   margin: 0 auto;
