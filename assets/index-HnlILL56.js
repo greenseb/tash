@@ -143,7 +143,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   position: relative;
   background: lightblue;
   color: white;
-  border-radius: 0.4em;
+  border-radius: 20px;
   box-shadow: 10px 10px 0px #00aabb;
   top: 50vh;
   width: 45%;
