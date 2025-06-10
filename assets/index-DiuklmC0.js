@@ -142,7 +142,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
 `,Ep="/tash/assets/face-CX2Hexw4.png";function Ap({setClicked:u}){const c=()=>{u(!0)};return st.jsx(Sp,{children:st.jsx(bp,{src:Ep,alt:"Bouncing",onClick:c})})}const Tp=He.div`
   position: relative;
   background: lightblue;
-  color: white;
+  color: #00aabb;
   border-radius: 20px;
   box-shadow: 10px 10px 0px #00aabb;
   top: 50vh;
