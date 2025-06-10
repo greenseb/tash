@@ -145,7 +145,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   border-radius: 0.4em;
   box-shadow: 10px 10px 0px #00aabb;
   top: 300px;
-  width: 30%;
+  width: 40%;
   height: content;
   margin: 0 auto;
   padding: 20px;
@@ -159,15 +159,16 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
   &::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    top: -20px;
     left: 50%;
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-top-color: #00aabb;
+    border-top-color: lightblue;
     border-bottom: 0;
-    border-left: 0;
+    // border-top: 0;
+    border-right: 0;
     margin-left: -10px;
-    margin-bottom: -20px;
+    transform: rotate(180deg);
   }
 `,Rp=()=>st.jsxs(Tp,{children:[st.jsx("h1",{children:"Happy Birthday!"}),st.jsx("h3",{children:"Click on my head😛"})]});function Op(){const u=["Mini egg pancakes🥞","Head off from yours🚘","Starbs en route☕️","Drop bags off or check-in🛎️","Chill🥱","Stroll to St Ives🚶🏻‍♂️","Chippies on the beach🍟","Cocktails @ Seven Bar🍹","Uber home🚕"],c=["Carbis Bay or St Ives for an iced coffee and a light brunch🥐","Paddleboards or kayak on the sea🛶","Home to rinse off and change🚿","Afternoon tea @ Ugly Butterfly🦋*","Walk to Godrevy lighthouse⚓️","Snacks & sunset somewhere🌅"],r=["Pack up and check-out🔑","Find a nice bakery or brunch spot🧇","Jellycat hunting🍊","Drive to Dartmoor National Park🚙","Little hike or a nice walk with snacks🍿","Home🛌"],[f,d]=C.useState(!1),[h,S]=C.useState(!1),[T,v]=C.useState(!1),[m,R]=C.useState(!1);return m?st.jsxs(st.Fragment,{children:[st.jsxs(hp,{children:[st.jsx(mp,{children:st.jsx("img",{src:dg,style:{maxWidth:"100%",height:"auto"},alt:"Birthday"})}),st.jsxs(yp,{children:[st.jsx(vp,{children:"Happy Birthday!"}),st.jsx(Nr,{children:"I hope you're pleased with our destination☺️"}),st.jsx(Nr,{children:"Here is our loose (ish) itinerary for the weekend."}),st.jsx(Mi,{children:"(All are optional unless marked with a * 🙂)"}),st.jsx("br",{}),st.jsx(Ar,{day:"Friday",reveal:f,onClick:()=>{d(!f),(h||T)&&(S(!1),v(!1))},children:u.map((N,_)=>st.jsxs(Mi,{style:{color:"hotpink"},children:["- ",N]},_))}),st.jsx(Ar,{day:"Saturday",reveal:h,onClick:()=>{S(!h),(f||T)&&(d(!1),v(!1))},children:c.map((N,_)=>st.jsxs(Mi,{style:{color:"hotpink"},children:["- ",N]},_))}),st.jsx(Ar,{day:"Sunday",reveal:T,onClick:()=>{v(!T),(f||h)&&(d(!1),S(!1))},children:r.map((N,_)=>st.jsxs(Mi,{style:{color:"hotpink"},children:["- ",N]},_))})]})]}),st.jsx(M1,{})]}):st.jsxs(st.Fragment,{children:[st.jsx(Ap,{setClicked:R}),st.jsx(Rp,{})]})}function xp(){return st.jsx(U1,{children:st.jsx(xm,{path:"/",element:st.jsx(Op,{})})})}qv.createRoot(document.getElementById("root")).render(st.jsx(C.StrictMode,{children:st.jsx(lg,{basename:"/tash",children:st.jsx(xp,{})})}));
