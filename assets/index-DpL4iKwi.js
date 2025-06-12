@@ -93,7 +93,7 @@ Please change the parent <Route path="${j}"> to <Route path="${j==="/"?"*":`${j}
 `;const hg=Me.div`
   display: flex;
   flex-direction: column;
-  margin: 100px auto;
+  margin: 60px auto;
 `;Me.h1`
   color: white;
   text-align: center;
